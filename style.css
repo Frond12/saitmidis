@@ -1,0 +1,520 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.head{
+display: flex;
+height: 75px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration-color: cornflowerblue;
+}
+.stranizi{
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: aliceblue;
+    list-style-type: none;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+     
+}
+.fon{
+    background:url(img/Rectangle.png) no-repeat; /* Фоновый цвет и фоновый рисунок*/
+	color: #fff; /*Цвет текста на странице*/
+    background-size: cover;
+	background-attachment: fixed; /* Фон страницы фиксируется */
+    height: 100vh;
+    overflow: hidden;
+}
+.favorit{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+.zagalovok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 300px;
+}
+.destinations{
+    height: 110vh;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.location-destinations{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.destinations-us{
+    margin-right: 100px;
+    
+}
+.head-our-destinations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+.border-box-1{
+        display: flex;
+        width: 400px;
+        flex-direction: row;
+        border-radius: 25px;
+        border: solid 1px black;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+.text-destinations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.direction{
+    height: 200px;
+    display: grid;
+    margin: 10px;
+}
+.Direction{
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 16px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.destinations-block{
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    border-radius: 15px;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.block-destination{
+    padding-top: 30px;
+}
+.block-2-2{
+    padding-top: 30px;
+}
+.border-box-2{
+    display: flex;
+    width: 400px;
+    flex-direction: row;
+    border-radius: 25px;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+        padding-bottom: 15px;
+    
+}
+.block-destination-2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+}
+.destinations-block-2{
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    border-radius: 15px;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.padding{
+    padding-left: 15px;
+}
+.About-the-department{
+    padding-top: 20px;
+    height: 752px;
+}
+.wrapper__fon{
+    background-color: #F2F2F2;
+    min-height: 100vh;
+}
+.photo{
+    height: 400px;
+    border-radius: 15px;
+}
+.posithion{
+display: flex;
+justify-content: right;
+align-items: center;
+flex-direction: row;
+height: 100%;
+}
+.the-department-block{
+    padding-bottom: 100px;
+}
+.the-department{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: row;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    width: 100%;
+    font-size: 35px;
+    
+}
+.the-department-text{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: row;
+    font-family: "montserratregular","Arial",sans-serif;
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 300px;
+    font-size: 20px;
+}
+.Our_achievements_block{
+    min-height: 100vh;
+}
+.Our_achievements{
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 50px;
+}
+.cartochki_img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+.Our_achievements_block_cartochki{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+   padding-top: 60px;
+   padding-bottom: 30px;
+}
+.Our_achievements_text{
+    width: 300px;
+    padding-top: 30px;
+    font-family: "montserratregular","Arial",sans-serif;
+    
+}
+.Our_teachers{
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+
+.number_teacher1{
+    display: grid;
+    width: 100%;
+    min-height: 600px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feacher_item {
+    display: flex;
+    align-items: center;
+
+}
+
+.feacher_number {
+    flex-shrink: 0;
+    width: 75px;
+    height: 75px;
+    background-color: grey;
+    border-radius: 50%; 
+    font-size: 54px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feacher_text {
+    font-family: "montserratregular","Arial",sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.text_for_h1{
+    font-family: "montserratregular","Arial",sans-serif;
+    padding-top: 30px;
+}
+.h2{
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    width: 300px;
+    font-size: 18px;
+}
+.block_PhDs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.PhDs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family:"montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.block_practicing_programmers{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+.practicing_programmers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family:"montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.block_expert_WorldSkills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+}
+.expert_WorldSkills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family:"montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.block_game{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 700px;
+}
+.Game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family:"montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.layer {
+    margin: auto;
+    position: relative;
+ }
+ .viewport {
+    width: 600px;
+    height: 200px;
+    overflow-x: scroll;
+   -ms-overflow-style: none;
+    scrollbar-width: none;
+ }
+ 
+ .item {
+    width: 600px;
+    height: 200px;
+    background-color: var(--color);
+    flex: 1 0 600px;
+ }
+ .left,
+ .right {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    padding: 0;
+    border-radius: 100%;
+ }
+ .right {
+    left: unset;
+    right: 0;
+    transform: translate(50%, -50%);
+ }
+ .left svg,
+ .right svg {
+    display: block;
+    width: 48px;
+    height: 48px;
+ }
+
+ .swiper {
+    width: 300px;
+    height: 500px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+.Our_projects{
+    min-height: 100vh;
+    height: auto;
+}
+.Our_projects_destinations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 33px;
+}
+.Our_projects_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: "montserratregular","Arial",sans-serif;
+    
+    font-size: 14px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    line-height: 1.5;
+}
+.container_footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.logo-2{
+    display: flex;
+    justify-content: left;
+}
+.contact_information{
+    color: #fff;
+}
+.color-text{
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #010005;
+    height: 200px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-family: "montserratregular","Arial",sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.padding-footer{
+    padding-top: 5px;
+    
+}
